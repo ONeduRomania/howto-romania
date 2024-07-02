@@ -76,6 +76,11 @@ body {
     height: 20px;
 }
 
+.view-buttons button.active {
+    background-color: #007BFF;
+    color: white;
+}
+
 .institutions {
     display: flex;
     flex-wrap: wrap;
@@ -119,4 +124,16 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
+}
+
+.list-view .institution {
+    width: calc(100% - 40px);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.list-view .institution img {
+    width: 50px;
+    margin-right: 20px;
 }
