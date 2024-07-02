@@ -3,7 +3,7 @@ body {
 }
 
 .header-background {
-    background-image: url('../images/header_background.jpg'); /* Adaugă imaginea de fundal aici */
+    background-image: url('../images/background.jpg');
     background-size: cover;
     padding: 20px;
 }
