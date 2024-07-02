@@ -3,7 +3,6 @@
         <div class="header-content">
             <div class="logo">
                 <img src="images/logo.png" alt="Logo">
-                <h1>Asociația ONedu</h1>
             </div>
             <div class="search-bar">
                 <input type="text" placeholder="Căutați răspunsuri">
