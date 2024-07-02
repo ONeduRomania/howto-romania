@@ -1,65 +1,122 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
 }
 
-header {
+.header-background {
+    background-image: url('../images/header_background.jpg'); /* Adaugă imaginea de fundal aici */
+    background-size: cover;
+    padding: 20px;
+}
+
+.header-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #f8f8f8;
-    padding: 10px 20px;
-    border-bottom: 1px solid #ddd;
 }
 
-header .logo img {
-    height: 40px;
+.logo img {
+    height: 50px;
 }
 
-header nav .elections-button {
+.logo h1 {
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    padding: 5px;
+    font-size: 16px;
+}
+
+.search-bar button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.search-bar button img {
+    height: 20px;
+}
+
+.alegeri-button a {
+    display: inline-block;
     background-color: #007BFF;
     color: white;
     padding: 10px 20px;
     border-radius: 25px;
     text-decoration: none;
-    font-weight: bold;
+    font-size: 16px;
 }
 
-header nav .elections-button:hover {
+.alegeri-button a:hover {
     background-color: #0056b3;
 }
 
-main {
-    padding: 20px;
+.view-buttons {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 0;
+}
+
+.view-buttons button {
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 5px;
+    margin-left: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.view-buttons button img {
+    height: 20px;
 }
 
 .institutions {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
+    padding: 20px;
 }
 
 .institution {
-    width: 30%;
-    margin-bottom: 20px;
-    text-align: center;
-    border: 1px solid #ddd;
+    border: 1px solid #ccc;
     border-radius: 5px;
+    margin: 10px;
     padding: 10px;
+    width: calc(25% - 40px);
+    box-sizing: border-box;
+    text-align: center;
 }
 
 .institution img {
-    width: 100px;
-    height: 100px;
+    max-width: 100%;
+    height: auto;
+}
+
+.institution p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.institution a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.institution a:hover {
+    text-decoration: underline;
 }
 
 footer {
     text-align: center;
-    padding: 10px;
+    padding: 20px;
     background-color: #f8f8f8;
-    border-top: 1px solid #ddd;
     position: absolute;
-    width: 100%;
     bottom: 0;
+    width: 100%;
 }

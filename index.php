@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>How to: România</title>
     <link rel="stylesheet" href="css/style.css">
-    <?php include 'includes/header.php'; ?>
 </head>
 <body>
+<?php include 'includes/header.php'; ?>
 
 <main>
     <section class="institutions">
@@ -34,7 +34,7 @@
         ?>
     </section>
 </main>
-</body>
 
 <?php include 'includes/footer.php'; ?>
+</body>
 </html>
